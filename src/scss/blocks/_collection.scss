@@ -1,0 +1,13 @@
+.collection__title {
+	padding: 48px 0;
+}
+
+.collection__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+	@media (max-width: 767px) {
+		grid-template-columns: auto;
+		grid-template-rows: repeat(4, 1fr);
+	}
+}

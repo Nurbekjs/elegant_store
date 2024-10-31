@@ -1,0 +1,36 @@
+.values {
+	padding: 40px 0;
+}
+
+.values__row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+
+	& > * {
+		flex: 1;
+		min-width: 262px;
+	}
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
+}
+.values__box {
+	padding: 48px 32px;
+	background-color: #f3f5f7;
+}
+.values__img {
+	margin-bottom: 16px;
+}
+.values__title {
+	margin-bottom: 8px;
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 500;
+	font-family: var(--accent);
+	color: #141718;
+}
+.values__desc {
+	color: #6c7275;
+	font-size: 14px;
+	line-height: 1.714;
+}
